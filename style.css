@@ -1,0 +1,497 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* top wraper */
+.top-wraper {
+    background-color: #88C6FF;  
+}
+
+.top-wraper a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    height: 100px;
+}
+
+.header-left {
+    float: left;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    padding: 19px 50px 0 33px;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar a {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 39px 30px 39px 0;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 10px;
+}
+
+/* Button */
+.btn-daftarUp {
+    padding: 13px 15px;
+    background-color: #EFA71C;
+    box-shadow: 4px 4px #f2cc83;
+    opacity: 0.8;
+}
+
+.btn-daftarUp:hover {
+    background-color: #f08f11;
+    opacity: 1;
+}
+
+.btn-daftarUp:active {
+    position: relative;
+    opacity: 1;
+    background-color: #f08f11;
+    font-weight: bold;
+    box-shadow: none;
+    font-size: 13.2px;
+}
+
+.btn-masuk {
+    padding: 10px 50px;
+    margin: 27px 77px 0 30px;
+    border: 2px solid #FFF;
+    box-shadow: 4px 4px #fcfcfcd8;
+    opacity: 0.8;
+}
+
+.btn-masuk:hover {
+    opacity: 1;
+}
+
+.btn-masuk:active {
+    position: relative;
+    opacity: 1;
+    font-weight: bold;
+    box-shadow: none;
+    font-size: 13.2px;
+}
+
+
+/* Hero */
+.hero {
+    height: 554px;
+    margin-right: 60px;
+    margin-left: 143px;
+}
+
+.hero-left {
+    float: left;
+    margin-top: 60px;
+    margin-right: 63px;
+}
+
+.hero-left h1 {
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFF;
+}
+
+.hero-left p {
+    width: 450px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 21px 0 34px 0;
+    word-wrap: break-world;
+}
+
+
+/* button */
+.btn-wraper a {
+    border-radius: 10px;
+    color: #FFF;
+    opacity: 0.8;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn-daftarBottom {
+    padding: 18px 36px;
+    background-color: #EFA71C;
+    box-shadow: 4px 4px #f2cc83;
+    margin-left: 8px;
+    margin-right: 41px;
+    cursor: pointer;
+}
+
+.btn-daftarBottom:hover {
+    background-color: #f08f11;
+    opacity: 1;
+}
+
+.btn-daftarBottom:active {
+    position: relative;
+    opacity: 1;
+    background-color: #f08f11;
+    font-weight: bold;
+    font-size: 15.2px;
+    box-shadow: none;
+}
+
+.btn-pelajari {
+    padding: 16px 36px;
+    border: 2px solid #FFF;
+    box-shadow: 4px 4px #fcfcfcd8;
+}
+
+.btn-pelajari:hover {
+    opacity: 1;
+}
+
+.btn-pelajari:active {
+    position: relative;
+    opacity: 1;
+    font-weight: bold;
+    box-shadow: none;
+    font-size: 15.2px;
+}
+
+
+/* Image */
+.hero-right img {
+    width: 400px;
+    height: 300px;
+    margin-top: 45px;
+    float: right;
+}
+
+
+.heading{
+    margin-top: 50px;
+    text-align: center;
+}
+.reason{
+    margin-bottom: 33px;
+}
+.heading h2{
+    font-weight: 500px;
+    font-size: 36px;
+}
+.lesson-wrapper{
+    text-align: center;
+    background-color:white;
+    height: 500px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container-lesson{
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.lessons{
+    display: flex;
+    padding: 10px 40px;
+    margin: 10px 20px;
+}
+.lesson{
+    float:left;
+    flex: auto;
+    width: 25%;
+    height: 281px;
+    line-height: 281px;
+    margin-right: 50px;
+    border-radius: 10px;
+    position: relative;
+}
+.vector{
+    padding-bottom: 26px;
+}
+.kurikulum{
+    background-color:#88C6FF;
+}
+.biaya{
+    background-color: #EFA71C;
+}
+.materi{
+    background-color: #00E24D;
+}
+.bantuan{
+    background-color: #709BC2;
+}
+.fa{
+    color:white;
+    padding-top:70px;
+}
+.lesson-icon p{
+    font-weight: bold;
+    line-height: 2px;
+    top:0;
+    font-size: 23px;
+    top:80px;
+}
+.txt-1{
+    position:absolute;
+    padding-top:80px;
+    width: 100%;
+}
+.txt-2{
+    position:absolute;
+    padding-top:110px;
+    width: 100%;
+}
+.mentor-wrapper{
+    background-color:#EFA71C;
+    height: 872px;
+    width: 100%;
+    text-align: center;
+}
+.mentor{
+    margin-bottom: 84px;
+}
+.mentor h2{
+    color: white;
+    padding-top:50px;
+    padding-bottom: 10px;
+}
+.mentor p{
+    font-weight:bold;
+    font-size: 18px;
+    line-height: 27px;
+}
+.picture{
+    height: 150px;
+    margin-bottom: 22px;
+}
+.name{
+    font-weight:bold;
+    font-size: 24px;
+    color: white;
+    margin-bottom:8px;
+}
+.study{
+    font-weight: bold;
+    size: 18px;
+    padding-bottom:84px;
+
+}
+.list{
+    float:left;
+}
+.mentor-1{
+    width:33%;
+}
+.mentor-2{
+    width:50%;
+}
+.satu{
+    margin-bottom: 84px;
+}
+
+/*Indah Gontina */
+.contaier-card{
+    width: 962px;
+    height: 358px;
+    padding-left:15px;
+    padding-right:15px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.isi{
+    height: 400px;
+    text-align: center;
+    background-color:#709BC2;
+    margin: 50px 219px;
+    
+}
+.icons{
+    float: left;
+    padding:104px 50px
+}
+.icon{
+    width:150px
+}
+.text{
+    text-align: center;
+    padding-top:55px;
+    margin-right:105px;
+}
+.txt-contents{
+    margin-bottom:50px;
+}
+.txt-contents p{
+    color: white;
+    font-size: 20px;
+}
+.heading{
+    margin-bottom: 10px;
+}
+.heading h2{
+    font-size: 36px;
+}
+.button{
+    background-color:#EFA71C;
+    display: inline-block;
+    cursor: pointer;
+    padding:18px 56px;
+    box-shadow: 0px 7px #395185;
+}
+.button:active{
+    box-shadow:none;
+    position:relative;
+    top:7px;
+}
+.button a{
+    color: white;
+}
+
+/*Irfan Ikwanda */
+footer {
+    background-color: #88C6FF;
+    width: 1366px;
+    height: 359px;
+}
+
+.container-footer {
+    height: 360px;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.footer-logo{
+    float:left;
+    position:relative;
+    top:120px;
+    right:100px;
+}
+
+.footer-logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.footer-medsos{
+    float:right;
+   font-weight: 600;
+    top:120px;
+    position: relative;
+    right:200px;
+}
+
+.medsos {
+    float:right;
+    position:relative;
+    top:140px;
+    padding-top: 24px;
+}
+
+.medsos li {
+    display: inline;
+    padding-right: 16px;
+}
+
+.medsos a {
+    color: #000;
+}
+
+.footer-content h2{
+    height: 36px;
+    width: 222px;
+    left: 400px;
+    bottom: 150px;
+    position :relative;
+    text-align: left;
+    font-weight:700;
+    Line-height :37px;
+    font-size: 20px;
+}
+.footer-content h3 {
+    Width :304px;
+    Left :306px;
+    font-size:18px;
+    left: 400px;
+    bottom:140px;
+    padding-top:15px;
+    position:relative;
+    text-align: left;
+    font-weight: 500;
+    Line-height :30px;
+}
+
+.footer-content h4 {
+    Width :304px;
+    Left :306px;
+    font-size:20px;
+    left: 400px;
+    bottom:130px;
+    padding-top:20px;
+    color:azure;
+    position:relative;
+    text-align: left;
+    font-weight: 500;
+}
